@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA747D9F0F9514B9006C5449 /* IRMotionRecognizer_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* IRMotionRecognizer_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		FF2FECCA13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = FF2FECBC13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizer.h */; };
+		FF2FECCB13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2FECBD13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizer.m */; };
+		FF2FECCC13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerImpl_AccelerometerGravity.h in Headers */ = {isa = PBXBuildFile; fileRef = FF2FECBE13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerImpl_AccelerometerGravity.h */; };
+		FF2FECCD13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerImpl_AccelerometerGravity.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2FECBF13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerImpl_AccelerometerGravity.m */; };
+		FF2FECCE13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerImpl_DeviceMotionGravity.h in Headers */ = {isa = PBXBuildFile; fileRef = FF2FECC013854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerImpl_DeviceMotionGravity.h */; };
+		FF2FECCF13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerImpl_DeviceMotionGravity.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2FECC113854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerImpl_DeviceMotionGravity.m */; };
+		FF2FECD013854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerSubclass.h in Headers */ = {isa = PBXBuildFile; fileRef = FF2FECC213854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerSubclass.h */; };
+		FF2FECD113854F33007B5BF2 /* IRMathematics.h in Headers */ = {isa = PBXBuildFile; fileRef = FF2FECC313854F33007B5BF2 /* IRMathematics.h */; };
+		FF2FECD213854F33007B5BF2 /* IRMathematics.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2FECC413854F33007B5BF2 /* IRMathematics.m */; };
+		FF2FECD313854F33007B5BF2 /* IRMotionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FF2FECC513854F33007B5BF2 /* IRMotionManager.h */; };
+		FF2FECD413854F33007B5BF2 /* IRMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2FECC613854F33007B5BF2 /* IRMotionManager.m */; };
+		FF2FECD513854F33007B5BF2 /* IRMotionRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = FF2FECC713854F33007B5BF2 /* IRMotionRecognizer.h */; };
+		FF2FECD613854F33007B5BF2 /* IRMotionRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2FECC813854F33007B5BF2 /* IRMotionRecognizer.m */; };
+		FF2FECD713854F33007B5BF2 /* IRMotionRecognizerSubclass.h in Headers */ = {isa = PBXBuildFile; fileRef = FF2FECC913854F33007B5BF2 /* IRMotionRecognizerSubclass.h */; };
+		FF2FECE213854F9B007B5BF2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2FECE113854F9B007B5BF2 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA747D9E0F9514B9006C5449 /* IRMotionRecognizer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRMotionRecognizer_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libIRMotionRecognizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIRMotionRecognizer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2FECBC13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRDeviceOrientationMotionRecognizer.h; sourceTree = "<group>"; };
+		FF2FECBD13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRDeviceOrientationMotionRecognizer.m; sourceTree = "<group>"; };
+		FF2FECBE13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerImpl_AccelerometerGravity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRDeviceOrientationMotionRecognizerImpl_AccelerometerGravity.h; sourceTree = "<group>"; };
+		FF2FECBF13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerImpl_AccelerometerGravity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRDeviceOrientationMotionRecognizerImpl_AccelerometerGravity.m; sourceTree = "<group>"; };
+		FF2FECC013854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerImpl_DeviceMotionGravity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRDeviceOrientationMotionRecognizerImpl_DeviceMotionGravity.h; sourceTree = "<group>"; };
+		FF2FECC113854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerImpl_DeviceMotionGravity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRDeviceOrientationMotionRecognizerImpl_DeviceMotionGravity.m; sourceTree = "<group>"; };
+		FF2FECC213854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRDeviceOrientationMotionRecognizerSubclass.h; sourceTree = "<group>"; };
+		FF2FECC313854F33007B5BF2 /* IRMathematics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRMathematics.h; sourceTree = "<group>"; };
+		FF2FECC413854F33007B5BF2 /* IRMathematics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRMathematics.m; sourceTree = "<group>"; };
+		FF2FECC513854F33007B5BF2 /* IRMotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRMotionManager.h; sourceTree = "<group>"; };
+		FF2FECC613854F33007B5BF2 /* IRMotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRMotionManager.m; sourceTree = "<group>"; };
+		FF2FECC713854F33007B5BF2 /* IRMotionRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRMotionRecognizer.h; sourceTree = "<group>"; };
+		FF2FECC813854F33007B5BF2 /* IRMotionRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRMotionRecognizer.m; sourceTree = "<group>"; };
+		FF2FECC913854F33007B5BF2 /* IRMotionRecognizerSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRMotionRecognizerSubclass.h; sourceTree = "<group>"; };
+		FF2FECE113854F9B007B5BF2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				FF2FECE213854F9B007B5BF2 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libIRMotionRecognizer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* IRMotionRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Base */,
+				FF2FECE713854FBD007B5BF2 /* Orientation Motion Recognizer */,
+				FF2FECE613854FA7007B5BF2 /* Helpers */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				FF2FECE113854F9B007B5BF2 /* CoreMotion.framework */,
+			);
+			name = IRMotionRecognizer;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FF2FECC713854F33007B5BF2 /* IRMotionRecognizer.h */,
+				FF2FECC813854F33007B5BF2 /* IRMotionRecognizer.m */,
+				FF2FECC913854F33007B5BF2 /* IRMotionRecognizerSubclass.h */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* IRMotionRecognizer_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		FF2FECE613854FA7007B5BF2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FF2FECC313854F33007B5BF2 /* IRMathematics.h */,
+				FF2FECC413854F33007B5BF2 /* IRMathematics.m */,
+				FF2FECC513854F33007B5BF2 /* IRMotionManager.h */,
+				FF2FECC613854F33007B5BF2 /* IRMotionManager.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		FF2FECE713854FBD007B5BF2 /* Orientation Motion Recognizer */ = {
+			isa = PBXGroup;
+			children = (
+				FF2FECBC13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizer.h */,
+				FF2FECBD13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizer.m */,
+				FF2FECC213854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerSubclass.h */,
+				FF2FECBE13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerImpl_AccelerometerGravity.h */,
+				FF2FECBF13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerImpl_AccelerometerGravity.m */,
+				FF2FECC013854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerImpl_DeviceMotionGravity.h */,
+				FF2FECC113854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerImpl_DeviceMotionGravity.m */,
+			);
+			name = "Orientation Motion Recognizer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* IRMotionRecognizer_Prefix.pch in Headers */,
+				FF2FECCA13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizer.h in Headers */,
+				FF2FECCC13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerImpl_AccelerometerGravity.h in Headers */,
+				FF2FECCE13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerImpl_DeviceMotionGravity.h in Headers */,
+				FF2FECD013854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerSubclass.h in Headers */,
+				FF2FECD113854F33007B5BF2 /* IRMathematics.h in Headers */,
+				FF2FECD313854F33007B5BF2 /* IRMotionManager.h in Headers */,
+				FF2FECD513854F33007B5BF2 /* IRMotionRecognizer.h in Headers */,
+				FF2FECD713854F33007B5BF2 /* IRMotionRecognizerSubclass.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* IRMotionRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "IRMotionRecognizer" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IRMotionRecognizer;
+			productName = IRMotionRecognizer;
+			productReference = D2AAC07E0554694100DB518D /* libIRMotionRecognizer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "IRMotionRecognizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* IRMotionRecognizer */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* IRMotionRecognizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2FECCB13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizer.m in Sources */,
+				FF2FECCD13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerImpl_AccelerometerGravity.m in Sources */,
+				FF2FECCF13854F33007B5BF2 /* IRDeviceOrientationMotionRecognizerImpl_DeviceMotionGravity.m in Sources */,
+				FF2FECD213854F33007B5BF2 /* IRMathematics.m in Sources */,
+				FF2FECD413854F33007B5BF2 /* IRMotionManager.m in Sources */,
+				FF2FECD613854F33007B5BF2 /* IRMotionRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/IRMotionRecognizer.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IRMotionRecognizer_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = IRMotionRecognizer;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/IRMotionRecognizer.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IRMotionRecognizer_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = IRMotionRecognizer;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "IRMotionRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "IRMotionRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

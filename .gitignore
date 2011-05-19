@@ -1,0 +1,25 @@
+.DS_Store
+dsa_priv.pem
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+*.xcworkspace
+*.xcuserdatad
+VersionX-revision.h
+build/
+Build/
+*.[oa]
+.hg
+.svn
+CVS
+*~.nib
+*.swp
+*~
+*(Autosaved).rtfd/
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/
+*.timemachine.supported
