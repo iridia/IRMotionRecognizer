@@ -32,23 +32,15 @@
 
 }
 
-- (void) dealloc {
-
-	[super dealloc];
-
-}
-
 - (void) startMotionManagerUpdates {
 
 	[super startMotionManagerUpdates];
 
 	self.motionManager.accelerometerUpdateInterval = 0.01f;
-	
-	__block __typeof__(self) nrSelf = self;
-	
+
 	[self.motionManager startAccelerometerUpdatesToQueue:self.queue withHandler: ^ (CMAccelerometerData *accelerometerData, NSError *error) {
 	
-		[nrSelf handleMotionManagerUpdate:accelerometerData];
+		[self handleMotionManagerUpdate:accelerometerData];
 	
 	}];
 
@@ -67,8 +59,6 @@
 }
 
 - (void) handleMotionManagerUpdate:(CMAccelerometerData *)accelerometerData {
-
-	[self retain];
 
 	if (!self.enabled)
 	return;
@@ -92,7 +82,6 @@
 	
 	dispatch_async(dispatch_get_main_queue(), ^ {
 		self.state = passableState ? IRMotionRecognizerStateRecognized : IRMotionRecognizerStatePossible;
-		[self autorelease];
 	});
 	
 }

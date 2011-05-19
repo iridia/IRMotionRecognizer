@@ -14,6 +14,7 @@
 @interface IRMotionRecognizer ()
 
 + (CMMotionManager *) sharedMotionManager;
++ (dispatch_queue_t) sharedDispatchQueue;
 
 - (void) irConfigure; // Called in init
 
