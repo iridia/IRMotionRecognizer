@@ -59,12 +59,7 @@
 
 - (void) irConfigure {
 
-	dispatch_sync([[self class] sharedDispatchQueue], ^ {
-	
-		self.motionManager = [[[IRMotionManager alloc] init] autorelease];
-	
-	});
-	
+	self.motionManager = [[[IRMotionManager alloc] init] autorelease];
 	self.state = IRMotionRecognizerStateUnknown;
 	self.enabled = YES;
 	self.continuous = YES;
@@ -73,24 +68,15 @@
 
 - (void) dealloc {
 
-	//		if (![NSThread isMainThread]) {
-	//		
-	//			__block __typeof__(self) nrSelf = self;
-	//			dispatch_sync(dispatch_get_main_queue(), ^ { [nrSelf dealloc]; });
-	//			return;
-	//		
-	//		}
-	
-	dispatch_sync([[self class] sharedDispatchQueue], ^ {
-	
-		if (motionManager.accelerometerActive || motionManager.gyroActive || motionManager.deviceMotionActive)
+	NSParameterAssert([NSThread isMainThread]);
+
+	if (motionManager.accelerometerActive || motionManager.gyroActive || motionManager.deviceMotionActive) {
 		[self endMotionManagerUpdates];
-		
-		[motionManager release];
-		
-	});
+		[queue waitUntilAllOperationsAreFinished];
+	}
 	
 	[queue release];
+	[motionManager release];		
 	[handler release];
 	
 	[super dealloc];

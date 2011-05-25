@@ -37,10 +37,12 @@
 	[super startMotionManagerUpdates];
 
 	self.motionManager.accelerometerUpdateInterval = 0.01f;
+	
+	__block __typeof__(self) nrSelf = self;
 
 	[self.motionManager startAccelerometerUpdatesToQueue:self.queue withHandler: ^ (CMAccelerometerData *accelerometerData, NSError *error) {
 	
-		[self handleMotionManagerUpdate:accelerometerData];
+		[nrSelf handleMotionManagerUpdate:accelerometerData];
 	
 	}];
 
