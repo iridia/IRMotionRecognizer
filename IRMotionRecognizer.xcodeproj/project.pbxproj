@@ -24,6 +24,8 @@
 		FF2FECD613854F33007B5BF2 /* IRMotionRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2FECC813854F33007B5BF2 /* IRMotionRecognizer.m */; };
 		FF2FECD713854F33007B5BF2 /* IRMotionRecognizerSubclass.h in Headers */ = {isa = PBXBuildFile; fileRef = FF2FECC913854F33007B5BF2 /* IRMotionRecognizerSubclass.h */; };
 		FF2FECE213854F9B007B5BF2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2FECE113854F9B007B5BF2 /* CoreMotion.framework */; };
+		FFA9FCFA1391D7CD00CCC2B9 /* IRMotionRecognizerQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA9FCF81391D7CD00CCC2B9 /* IRMotionRecognizerQueue.h */; };
+		FFA9FCFB1391D7CD00CCC2B9 /* IRMotionRecognizerQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA9FCF91391D7CD00CCC2B9 /* IRMotionRecognizerQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		FF2FECC813854F33007B5BF2 /* IRMotionRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRMotionRecognizer.m; sourceTree = "<group>"; };
 		FF2FECC913854F33007B5BF2 /* IRMotionRecognizerSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRMotionRecognizerSubclass.h; sourceTree = "<group>"; };
 		FF2FECE113854F9B007B5BF2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		FFA9FCF81391D7CD00CCC2B9 /* IRMotionRecognizerQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRMotionRecognizerQueue.h; sourceTree = "<group>"; };
+		FFA9FCF91391D7CD00CCC2B9 /* IRMotionRecognizerQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRMotionRecognizerQueue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,8 @@
 			children = (
 				FF2FECC313854F33007B5BF2 /* IRMathematics.h */,
 				FF2FECC413854F33007B5BF2 /* IRMathematics.m */,
+				FFA9FCF81391D7CD00CCC2B9 /* IRMotionRecognizerQueue.h */,
+				FFA9FCF91391D7CD00CCC2B9 /* IRMotionRecognizerQueue.m */,
 				FF2FECC513854F33007B5BF2 /* IRMotionManager.h */,
 				FF2FECC613854F33007B5BF2 /* IRMotionManager.m */,
 			);
@@ -149,6 +155,7 @@
 				FF2FECD313854F33007B5BF2 /* IRMotionManager.h in Headers */,
 				FF2FECD513854F33007B5BF2 /* IRMotionRecognizer.h in Headers */,
 				FF2FECD713854F33007B5BF2 /* IRMotionRecognizerSubclass.h in Headers */,
+				FFA9FCFA1391D7CD00CCC2B9 /* IRMotionRecognizerQueue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +215,7 @@
 				FF2FECD213854F33007B5BF2 /* IRMathematics.m in Sources */,
 				FF2FECD413854F33007B5BF2 /* IRMotionManager.m in Sources */,
 				FF2FECD613854F33007B5BF2 /* IRMotionRecognizer.m in Sources */,
+				FFA9FCFB1391D7CD00CCC2B9 /* IRMotionRecognizerQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

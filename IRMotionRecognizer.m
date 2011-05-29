@@ -10,6 +10,7 @@
 #import "IRMotionRecognizerSubclass.h"
 
 #import "IRMotionManager.h"
+#import "IRMotionRecognizerQueue.h"
 
 @implementation IRMotionRecognizer
 @synthesize queue, handler, state, enabled, motionManager, continuous;
@@ -20,7 +21,7 @@
 	if (!returned) return nil;
 	
 	returned.enabled = NO;
-	returned.queue = aQueue ? aQueue : [[[NSOperationQueue alloc] init] autorelease]; // Don’t use the main queue because it can not be explicitly destroyed then
+	returned.queue = aQueue ? aQueue : [[[IRMotionRecognizerQueue alloc] init] autorelease]; // Don’t use the main queue because it can not be explicitly destroyed then
 	returned.handler = aHandler;
 	returned.enabled = YES;
 	
